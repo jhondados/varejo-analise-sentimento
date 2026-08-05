@@ -69,7 +69,7 @@ input,textarea{outline:none}
 <div id="root"></div>
 <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
 <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
-<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<script src="https://unpkg.com/@babel/standalone@7/babel.min.js"></script>
 <script type="text/babel" data-presets="react">
 const CFG={"slug": "varejo-analise-sentimento", "titulo": "Voz do Cliente no Varejo", "vertical": "Varejo", "descricao": "Análise de avaliações e atendimento com NLP. Revela o que clientes amam ou criticam por produto e loja, priorizando melhorias que aumentam satisfação e vendas.", "ia": ["NLP", "Sentiment", "BERTimbau", "Topic Modeling"], "demo": "sentiment", "fonte": "Avaliações + SAC", "fonteUrl": "https://www.consumidor.gov.br", "kpis": [{"label": "F1 PT-BR", "value": "0.93", "delta": "+0.1"}, {"label": "Avaliações", "value": "milhões", "delta": ""}, {"label": "NPS", "value": "+19", "delta": "+19"}, {"label": "Drivers", "value": "mapeados", "delta": ""}], "chartType": "bar", "chartLabel": "Sentimento por Loja", "series": [45.9, 45.2, 46.9, 51.0, 56.7, 63.2, 69.1, 65.4, 67.5, 67.1, 64.7, 61.3, 58.2, 56.3, 56.6, 59.4, 56.3, 62.5, 68.9, 74.2, 77.6, 78.5, 77.2, 74.3], "features": ["Sentimento por produto/loja", "Drivers de satisfação", "Priorização de melhorias", "Alerta de problema", "Monitoramento de marca"], "color": "#a855f7", "icon": "🛒", "portfolioUrl": "https://jhondados.github.io/portfolio", "githubUser": "jhondados", "criado": "27/09/2023", "criadoISO": "2023-09-27"};
 const {useState,useEffect,useRef,useMemo}=React;
